@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ReFood</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="viewers.js" defer></script>
+    
+  </head>
+  <body class="restaurantProducts">
+
+    <header>
+      <nav class="navbar">
+        <a href="home.html"> <img src="images/logo1.jpg" class="logo"> </a>
+           <ul class="nav-menu">
+            <li class="nav-item"><a href="home.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="AboutUs.html" class="nav-link">About Us</a></li>
+            <!-- <li class="nav-item"><a href="viewersProducts.html" class="nav-link">Restaurants</a></li> -->
+            <li class="nav-item"><a href="login.html" id="loginNavBarLink" onclick="checkLogin()" class="nav-link">Login</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+         </div>
+       </nav>
+  </header>
+    
+    <main>
+        <!-- TABEL PRODUSE -->
+        <div class="restaurantProductsContainer">
+          <div id="sidebar">
+            <div class="toggle-btn" onclick ="show()">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+            <div class="restaurantSide">
+              <table id="restaurantList">
+                <thead>
+                  <tr>
+                    <th><a class="nav-link" ><h2>Restaurant List:</h2></a></th>
+                  </tr>
+                </thead>
+                <tbody id="restaurantsAdmin-output"  >
+                  <!-- Prodcuts from javascript file in here. -->
+                </tbody>
+              </table>
+            </div>
+
+          </div>
+          <div class="rightSiderestaurantProducts">
+              <div class="rightSiderestaurantProductsTitle">
+                <div id="rightSiderestaurantProductsHeader"></div>
+                <div class="rightSiderestaurantProductsButton">
+                  <button   id="AddItem" onclick="showPopup()"><ion-icon name="add-circle-outline"></ion-icon>Item</button>
+                  <button   id="delItem"><ion-icon name="add-circle-outline"></ion-icon>DelteAcc</button>
+                </div>
+              </div>
+              <div class="restaurantsTableHeader">
+                <table id="restaurantsTable">
+                  <thead>
+                    <tr>
+                      <th>Name</th>
+                      <th>Detalis</th>
+                      <th>Category</th>
+                      <th>Availability</th>
+                      <th>Quantity</th>
+                      <th>Action</th>
+                    </tr>
+                  </thead>
+                  <tbody id="productsAdmin-output">
+                    <!-- Prodcuts from javascript file in here. -->
+                  </tbody>
+                </table>
+            </div>
+          </div>
+          <div class="popup" id="popupId">
+            <form action="#">
+            <input type="text" id="productNamePopup" placeholder="Product Name" />
+            <br />
+            <input type="text" id="productDetailsPopup" placeholder="Product Details" />
+            <br />
+            <input type="text" id="categoryPopup" placeholder="Category" />
+            <br />
+            <input type="text" id="availabilityPopup" placeholder="Availability" />
+            <br />
+            <input type="text" id="quantityPopup" placeholder="Quantity" />
+            <br />
+            <div class="butoanePopup">
+                <button type="submit" id="AddPopup">Add</button>
+                <button onclick="closePopup()" type="button" >Cancel</button>
+            </div>
+          </form>
+        </div>
+          
+        </div>
+          
+          
+       
+    </main> 
+    <footer class="footer">
+      <ul class="social_icon">
+          <li>
+              <a href="#" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+          </li>
+          <li>
+              <a href="#" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+          </li>
+          <li>
+              <a href="#" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+          </li>
+      </ul>
+      <p>@2022 PROIECT POCU ENDAVA | All Rights Reserved</p>
+      
+  </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+<!-- <td>  <button href="#" id="rese12" onclick="buttonViewers()" >Reservation</button></td> -->

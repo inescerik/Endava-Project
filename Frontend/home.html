@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ReFood</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    
+  </head>
+  <body class="homePage">
+
+    <header>
+      <nav class="navbar">
+          <a href="home.html"> <img src="images/logo1.jpg" class="logo"> </a>
+          <!-- <h2 class="logo"><a href="cvMainPage.html">Inesc <span>Erik</span></a></h2> -->
+
+           <ul class="nav-menu">
+               <li class="nav-item"><a href="home.html" class="nav-link">Home</a></li>
+               <li class="nav-item"><a href="AboutUs.html" class="nav-link">About Us</a></li>
+               <li class="nav-item"><a href="viewersProducts.html" class="nav-link">Restaurants</a></li>
+               <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+               <li class="nav-item"><a href="login.html" id="loginNavBarLink" onclick="checkLogin()" class="nav-link">Login</a></li>
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+         </div>
+       </nav>
+  </header>
+    
+    <main>
+        <div class="homeContainer">
+            <div class="homeTitle"> 
+                <h1>Reduce food waste</h1>
+            </div>
+            <div class="carousel">
+               
+                <div class="carousel__item carousel__item--visible">
+                  <img src="images/1.jpg" />
+                </div>
+                <div class="carousel__item">
+                  <img src="images/2.jpg" />
+                </div>
+                <div class="carousel__item">
+                  <img src="images/3.jpg" />
+                </div>
+                <div class="carousel__item">
+                    <img src="images/4.jpg" />
+                </div>
+                <div class="carousel__item">
+                    <img src="images/5.jpg" />
+                </div>
+                <div class="carousel__item">
+                    <img src="images/6.jpg" />
+                </div>
+          
+                <div class="carousel__actions">
+                  <button id="carousel__button--prev" aria-label="Previous slide"><</button>
+                  <button id="carousel__button--next" aria-label="Next slide">></button>
+                </div>
+            </div>   
+            <div class="ourFounders">
+                <h1>
+                    Our founders:
+                </h1>
+                <p>
+                    Waste No Food was founded in 2011 to divert excess food to hungry people.
+                     Since then, it has provided millions of meals to the hungry and has initiated partnerships with
+                      the City of San Jose, San Francisco Airport, 
+                    the Tampa Bay Network to End Hunger, and the University of Illinois. 
+                </p>
+                <p>
+                    Kiran Sridhar is the Chair of Waste No Food, which he founded in 2011. 
+                    He's passionate about employing technology to address seemingly intractable problems.
+                </p>
+                <p>
+                    Sudha Sarma is Waste No Food's Executive Director. 
+                    She previously served in software engineering and marketing roles at Toshiba and IBM. She holds multiple patents.
+                </p>
+            </div>            
+            <div class="homeImageText">
+                <div class="firstRow">
+                    <div class="rowText">
+                        <h1>
+                            WHY IS GOOD FOOD WASTED?
+                        </h1>
+                        <p>
+                            We’re not talking about leftovers or stuff that’s gone bad. 
+                            We mean good food. Every day,<br> food businesses throw out high-quality, delicious food. 
+                            It could be pallets of fresh <br>bell peppers that aren’t the ideal shape. 
+                            Or carrots that are a little crooked. <Br>Or milk that was over-ordered for a local school district. 
+                            <br>Point is, it’s food that could feed people rather than ending up in a landfill.
+                        </p>
+                        <a href="aboutUs.html" class="learnMore">Learn more  <span><ion-icon name="arrow-forward-outline"></ion-icon></span></a>
+                    </div>
+                    <div class="rowPhoto">
+                        <img src="images/photo1.jpg">
+                    </div>
+                </div>
+                <div class="secondRow">
+                    <div class="rowText">
+                        <h1>
+                            THE FOOD WASTE CRISIS
+                        </h1>
+                        <p>
+                            As much as 40 percent of all food goes unsold or uneaten in the United States.<br> 
+                            Instead of being consumed, this food ends up in a landfill, <br>
+                            where it decomposes and releases methane —<br> a greenhouse gas between 24 and 87 times more potent than CO2.<br> 
+                            This makes reducing food waste one of the top three ways to reverse climate change.
+                        </p>
+                        <a href="aboutUs.html" class="learnMore">Learn more  <span><ion-icon name="arrow-forward-outline"></ion-icon></span></a>
+                    </div>
+                    <div class="rowPhoto">
+                        <img src="images/photo2.jpg">
+                    </div>
+                </div>
+                <div class="firstRow">
+                    <div class="rowText">
+                        <h1>
+                            WHY IS GOOD FOOD WASTED?
+                        </h1>
+                        <p>
+                            We’re not talking about leftovers or stuff that’s gone bad. 
+                            We mean good food. Every day,<br> food businesses throw out high-quality, delicious food. 
+                            It could be pallets of fresh <br>bell peppers that aren’t the ideal shape. 
+                            Or carrots that are a little crooked. <Br>Or milk that was over-ordered for a local school district. 
+                            <br>Point is, it’s food that could feed people rather than ending up in a landfill.
+                        </p>
+                        <a href="aboutUs.html" class="learnMore">Learn more  <span><ion-icon name="arrow-forward-outline"></ion-icon></span></a>
+                       
+                        
+                        
+                    </div>
+                    <div class="rowPhoto">
+                        <img src="images/photo3.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="ourPartners">
+                <div class="rowText">
+                    <h1>
+                        Our Partners
+                    </h1>
+                    <p>
+                        We are grateful for these food donor, charity partners and financial supporters.<br>
+                        Our Donor Partners:
+                    </p>
+                </div>
+                <div class="slide-container">
+                    <img id="slide-left" class="arrow" src="./sponsorsImg/arrow-left.png">
+                    <section class="containerCarouselBottom" id="slider">
+                        <div class="thumbnail">
+                            <img src="./sponsorsImg/img1.jpg" alt="">
+                        </div>
+                        <div class="thumbnail">
+                            <img src="./sponsorsImg/img2.jpg" alt="">
+                            
+                        </div>
+                        <div class="thumbnail">
+                            <img src="./sponsorsImg/img3.jpg" alt="">
+                        </div>
+                        <div class="thumbnail">
+                            <img src="./sponsorsImg/img4.jpg" alt="">
+                        </div>
+                        <div class="thumbnail">
+                            <img src="./sponsorsImg/img5.jpg" alt="">
+                        </div>
+                        <div class="thumbnail">
+                            <img src="./sponsorsImg/img6.jpg" alt="">
+                        </div>
+                        <div class="thumbnail">
+                            <img src="./sponsorsImg/img7.jpg" alt="">
+                        </div>
+                        <div class="thumbnail">
+                            <img src="./sponsorsImg/img8.jpg" alt="">
+                        </div>
+                        <div class="thumbnail">
+                            <img src="./sponsorsImg/img9.jpg" alt="">
+                        </div>
+                    </section>
+                    <img id="slide-right" class="arrow" src="./sponsorsImg/arrow-right.png">
+                </div>   
+
+            </div>
+        </div>     
+    </main> 
+
+    <footer class="footer">
+      <ul class="social_icon">
+          <li>
+              <a href="#" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+          </li>
+          <li>
+              <a href="#" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+          </li>
+          <li>
+              <a href="#" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+          </li>
+      </ul>
+      <p>@2022 PROIECT POCU ENDAVA | All Rights Reserved</p>
+      
+  </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  </body>
+</html>
+
+
+
+
+
+

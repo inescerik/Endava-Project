@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ReFood</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <script src="script.js" defer></script> -->
+    <script src="login.js" defer></script>
+    
+  </head>
+  <body class="loginPage">
+
+    <header>
+        <nav class="navbar">
+            <a href="home.html"> <img src="images/logo1.jpg" class="logo"> </a>
+            <!-- <h2 class="logo"><a href="cvMainPage.html">Inesc <span>Erik</span></a></h2> -->
+  
+             <ul class="nav-menu">
+                 <li class="nav-item"><a href="home.html" class="nav-link">Home</a></li>
+                 <li class="nav-item"><a href="AboutUs.html" class="nav-link">About Us</a></li>
+                 <li class="nav-item"><a href="viewersProducts.html" class="nav-link">Restaurants</a></li>
+                 <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                 <li class="nav-item"><a href="login.html" id="loginNavBarLink" onclick="checkLogin()" class="nav-link">Login</a></li>
+            </ul>
+            <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+           </div>
+         </nav>
+    </header>
+    
+    <main>
+        <div class="LoginRegister">
+            <div class="containerLogin" id="containerLogin">
+                <div class="form-container sign-up-container">
+                    <form action="#">
+                        <h1>Create Account</h1>
+                        <input type="text" id="usenamesignUp" placeholder="Username" />
+                        <input type="password" id="passwordsignUp" placeholder="Password" />
+                        <input type="number" id="RoleIdsignUp" placeholder="RoleId" />
+                        <input type="text" id="namesignUp" placeholder="Name" />
+                        <input type="email" id="emailsignUp" placeholder="Email" />
+                        <input type="text" id="phonesignUp" placeholder="Phone" />
+                        <br>
+                        <button id="buttonsignUp">Sign Up</button>
+                    </form>
+                </div>
+                <div class="form-container sign-in-container">
+                    <form action="#">
+                        <h1>Sign in</h1>
+                        <br>
+                        <input type="text" id="usernameLogin" placeholder="Username" />
+                        <input type="password" id="passwordLogin" placeholder="Password" />
+                        <br>
+                        <a href="#" onclick="contactAlert()">Forgot your password?</a>
+                        <br>
+                        <button id="buttonLogin">Login</button>
+                    </form>
+                </div>
+                <div class="overlay-container">
+                    <div class="overlay">
+                        <div class="overlay-panel overlay-left">
+                            <h1>Welcome Back!</h1>
+                            <br>
+                            <p>To keep connected with us please login with your personal info</p>
+                            <br>
+                            <button class="ghost" id="signIn">Sign In</button>
+                        </div>
+                        <div class="overlay-panel overlay-right">
+                            <h1>Hello, <a id="friendChange">Friend!</a></h1>
+                            <br>
+                            <p>Enter your personal details and start journey with us</p>
+                            <br>
+                            <button class="ghost" id="signUp">Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main> 
+    <footer class="footer">
+      <ul class="social_icon">
+          <li>
+              <a href="#" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+          </li>
+          <li>
+              <a href="#" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+          </li>
+          <li>
+              <a href="#" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+          </li>
+      </ul>
+      <p>@2022 PROIECT POCU ENDAVA | All Rights Reserved</p>
+      
+  </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  </body>
+</html>
+

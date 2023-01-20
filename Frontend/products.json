@@ -1,0 +1,133 @@
+[
+	{
+		"id": 1,
+        "productId": 1,
+		"image": "product-images/bike-1.jpeg",
+		"productName": "1",
+		"productDetails": "284.00",
+		"productCategory": "soup",
+		"productAvailability": "yes",
+        "productQuantity": "3"
+        
+	},
+	{
+		"id": 2,
+        "productId": 1,
+		"image": "product-images/bike-2.jpeg",
+		"productName": "2",
+		"productDetails": "198.00",
+		"productCategory": "soup",
+		"productAvailability": "yes",
+        "productQuantity": "3"
+	},
+	{
+		"id": 2,
+        "productId": 1,
+		"image": "product-images/bike-2.jpeg",
+		"productName": "2",
+		"productDetails": "198.00",
+		"productCategory": "soup",
+		"productAvailability": "yes",
+        "productQuantity": "3"
+	},
+	{
+		"id": 2,
+        "productId": 1,
+		"image": "product-images/bike-2.jpeg",
+		"productName": "2",
+		"productDetails": "198.00",
+		"productCategory": "soup",
+		"productAvailability": "yes",
+        "productQuantity": "3"
+	},
+	{
+		"id": 2,
+        "productId": 1,
+		"image": "product-images/bike-2.jpeg",
+		"productName": "2",
+		"productDetails": "198.00",
+		"productCategory": "soup",
+		"productAvailability": "yes",
+        "productQuantity": "3"
+	},
+	{
+		"id": 2,
+        "productId": 1,
+		"image": "product-images/bike-2.jpeg",
+		"productName": "2",
+		"productDetails": "198.00",
+		"productCategory": "soup",
+		"productAvailability": "yes",
+        "productQuantity": "3"
+	},
+	{
+		"id": 3,
+        "productId": 1,
+		"image": "product-images/bike-3.jpeg",
+		"productName": "3",
+		"productDetails": "350.00",
+		"productCategory": "soup",
+		"productAvailability": "yes",
+        "productQuantity": "3"
+	},
+	{
+		"id": 4,
+        "productId":4,
+		"image": "product-images/guitar-1.png",
+		"productName": "4",
+		"productDetails": "790.00",
+		"productCategory": "soup",
+		"productAvailability": "yes",
+        "productQuantity": "3"
+	},
+	{
+		"id": 5,
+        "productId": 5,
+		"image": "product-images/guitar-2.png",
+		"productName": "5",
+		"productDetails": "430.00",
+		"productCategory": "soup",
+		"productAvailability": "yes",
+        "productQuantity": "3"
+	},
+	{
+		"id": 5,
+        "productId": 5,
+		"image": "product-images/guitar-2.png",
+		"productName": "21312",
+		"productDetails": "430.00",
+		"productCategory": "soup",
+		"productAvailability": "yes",
+        "productQuantity": "3"
+	},
+	{
+		"id": 5,
+        "productId": 2,
+		"image": "product-images/guitar-2.png",
+		"productName": "nou",
+		"productDetails": "430.00",
+		"productCategory": "soup",
+		"productAvailability": "yes",
+        "productQuantity": "3"
+	},
+	{
+		"id": 5,
+        "productId": 2,
+		"image": "product-images/guitar-2.png",
+		"productName": "n2ou",
+		"productDetails": "430.00",
+		"productCategory": "soup",
+		"productAvailability": "yes",
+        "productQuantity": "3"
+	},
+	{
+		"id": 6,
+        "productId":6,
+		"image": "product-images/guitar-3.png",
+		"productName": "6",
+		"productDetails": "650.00",
+		"productCategory": "soup",
+		"productAvailability": "yes",
+        "productQuantity": "3"
+	}
+]

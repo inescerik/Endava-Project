@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--<title>Email and Password Validation</title>-->
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../static/signup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>Sign up</header>
+      <form action="login.html" id="form">
+        <div class="field email-field">
+          <div class="input-field">
+            <input type="email" placeholder="Enter your email" class="email" id="email" />
+          </div>
+          <span class="error email-error">
+            <i class="bx bx-error-circle error-icon"></i>
+            <p class="error-text">Please enter a valid email</p>
+          </span>
+        </div>
+        <div class="field create-password">
+          <div class="input-field">
+            <input
+              type="password"
+              placeholder="Create password"
+              class="password"
+              id="password"
+            />
+            <i class="bx bx-hide show-hide"></i>
+          </div>
+          
+          <span class="error password-error">
+            <i class="bx bx-error-circle error-icon"></i>
+            <p class="error-text">
+              Please enter atleast 8 charatcer with number, symbol, small and
+              capital letter.
+            </p>
+          </span>
+        </div>
+        <div class="field confirm-password">
+          <div class="input-field">
+            <input
+              type="password"
+              placeholder="Confirm password"
+              class="cPassword"
+            
+            />
+            <i class="bx bx-hide show-hide"></i>
+            <!-- <input type="text" id="nume">
+            <input type="text" id="number">
+            <input type="text" id="roleID">
+            <input type="text" id="username"> -->
+          </div>
+          <span class="error cPassword-error">
+            <i class="bx bx-error-circle error-icon"></i>
+            <p class="error-text">Password don't match</p>
+          </span>
+        </div>
+        <div class="input-field">
+          <input type="text" id="nume" placeholder="Name">
+          
+        </div>
+        
+        <div class="input-field">
+          
+          <input type="text" id="username" placeholder="Username">
+        </div>
+        
+        <div class="input-field">
+          
+          <input type="text" id="roleID" placeholder="RoleId">
+        </div>
+
+        <div class="input-field">
+          
+          <input type="text" id="number" placeholder="PhoneNumber">
+        </div>
+
+
+        
+        <div class="input-field button">
+          <input type="submit" value="Sign up" onclick="showAlert()"
+          onclick="location.href='logoin.html'>
+        </div>
+      </form>
+      <div class="form-link">
+        <span
+          >Already have an account?
+          <a href="logoin.html" class="link login-link">Login</a>
+        </span>
+      </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="../static/signup.js"></script>
+  </body>
+</html>

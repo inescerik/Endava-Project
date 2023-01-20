@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curriculum vitae</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="contact.js" defer></script>
+  </head>
+  <body class="contact-page">
+
+    <header>
+        <nav class="navbar">
+            <a href="home.html"> <img src="images/logo1.jpg" class="logo"> </a>
+             <ul class="nav-menu">
+                 <li class="nav-item"><a href="home.html" class="nav-link">Home</a></li>
+                 <li class="nav-item"><a href="AboutUs.html" class="nav-link">About Us</a></li>
+                 <li class="nav-item"><a href="viewersProducts.html" class="nav-link">Restaurants</a></li>
+                 <li class="nav-item"><a href="login.html" id="loginNavBarLink" onclick="checkLogin()" class="nav-link">Login</a></li>
+            </ul>
+            <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+           </div>
+         </nav>
+    </header>
+    <main>
+        <div class="contact"> 
+            <div class="contact-icon">
+                <ul >
+                    <li>
+                        <h3><a href="https://www.google.com/maps/@47.4609483,23.8610933,3a,74.999992y,78.064072h,85.115105t/data=!3m4!1e1!3m2!1s_Er0LhupAZcklz2FK5EPgg!2e0?g_ep=CAIYAA%3D%3D&shorturl=1" target="_blank"><ion-icon name="location-outline"></ion-icon> Adress:</a></h3>
+                        <h4>Str. Tineretului, Nr.80,<br> Targu Lapus, Maramures, Romania,<br> 435600</h4>
+                     </li>
+                     <br>
+                     <li>
+                        <h3><a href="#" target="_blank"><ion-icon name="call-outline"></ion-icon> Phone:</a></h3>
+                         <h4>0764172237</h4>
+                    </li>
+                    <br>
+                    <li>
+                        <h3><a href="https://ro.yahoo.com/?p=us" target="_blank"><ion-icon name="mail-outline"></ion-icon> E-mail:</a></h3>
+                      <h4>inescerik@yahoo.com</h4>
+                    </li>
+                    <br>
+                    <li>
+                        <h3><a href="https://ro.yahoo.com/?p=us" target="_blank"><ion-icon name="aperture-outline"></ion-icon> Website:</a></h2>
+                      <h4>www.inescerik.com</h4>
+                    </li>
+                </ul>
+            </div>
+            <div class="text-contact">
+                <h2>Hello, please contact <span>Us</span>.</h2>
+                <br>
+                
+                <h4> Feel free to contact us  by telephone or e-mail</h4>
+                   <h4>and we will be sure to get back to you as soon as possible.</h4>
+              
+            
+                <div class="contactForm">
+                    <form  >
+                        <input type="text" id="full-name" placeholder="Full name" required>    
+                        <br>        
+                        <input type="email" id="e-mail" placeholder="E-mail" required>
+                        <br>
+                        <textarea cols="20" rows="10" id="text-message" placeholder="Your Message" disabled></textarea>
+                        <br>
+                        <!-- <label for="input">Not robot</label> -->
+                        <!-- <input id="input-contact" type="checkbox" onchange="readLocalStorage()"> -->
+                        <br>
+                    </form>
+                    <div class="contact_button" >
+                        <a href="#" onclick="saveLocalStorage()" type="button"  onClick='saveLocalStorage()' ><span></span>Send</a>
+                   </div>
+                </div>
+            </div>  
+        </div>
+    </main>
+   
+    <footer class="footer">
+        <ul class="social_icon">
+            <li>
+                <a href="#" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+            </li>
+            <li>
+                <a href="#" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+            </li>
+            <li>
+                <a href="#" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+            </li>
+        </ul>
+        <p>@2022 PROIECT POCU ENDAVA | All Rights Reserved</p>
+        
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  </body>
+</html>
